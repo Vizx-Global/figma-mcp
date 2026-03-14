@@ -1,0 +1,14 @@
+{
+  "name": "figma-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server that lets Claude edit Figma directly via chat",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "ws": "^8.18.0"
+  }
+}
